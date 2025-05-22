@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Bekleme Odası</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial;
+      margin-top: 100px;
+      background-color: #f5f5f5;
+    }
+    h1 {
+      font-size: 3em;
+    }
+    .spinner {
+      margin: 50px auto;
+      border: 10px solid #ccc;
+      border-top: 10px solid #000;
+      border-radius: 50%;
+      width: 80px;
+      height: 80px;
+      animation: spin 1s linear infinite;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <h1>Yayın bekleniyor...</h1>
+  <div class="spinner"></div>
+  <p>Her şey ücretsiz, çünkü hiçbir şey yok!</p>
+</body>
+</html>
